@@ -1,18 +1,13 @@
 ---
-title: Colophon
+title: About me
 permalink: /about/
 layout: page
-excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming journey, running on jekyll, hosting on netlify and using my own simple theme.
+excerpt: "About me"
 comments: false
 ---
 
-He's a student from Banyuwangi, living in Jogjakarta. the blog for documentation about his programming 🎒 journey, running on jekyll, hosting on [now.sh](http://now.sh) and using his own theme, he name it <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">klisé</a>, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
+My name is Pedro Ferreira and I'm 21 years old. For two years I attended with approval the Computational Engineering course of University of Aveiro, having changed in 2021 to the BSc in Computer and Informatics Engineering.
 
-If you have a question about him or else, just send a letter to him.
+During this time, I learnt about algorithms and data structures, how to program in Python, Matlab and Java, analyze and manipulate data to model physical systems, use Git repositories for collaborative work and create and manage Docker containers.
 
-You can [report](http://github.com/piharpi/jekyll-klise/issues/new) if there is an broken link(s) or somethings else.
-
-**may u needs ✨**
-
-- {{ site.author.email }}
-- github.com/{{ site.author.github }}
+In my free time I enjoy playing guitar, listening to music and creating new things (informatics-related projects). 
