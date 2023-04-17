@@ -154,8 +154,8 @@
 
     input[type="checkbox"]:checked ~ .trigger {
       position: fixed;
-      animation: 0.2s ease-in forwards fadein;
-      -webkit-animation: 0.2s ease-in forwards fadein;
+      animation: 0.35s ease-in forwards fadein;
+      -webkit-animation: 0.35s ease-in forwards fadein;
       display: flex;
       flex-direction: row;
       justify-content: center;
