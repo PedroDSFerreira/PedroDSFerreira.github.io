@@ -2,7 +2,7 @@
 layout: default
 home: true
 ---
-
+{% if site.posts!=empty %}
 <h3 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h3>
 {%- for post in site.posts limit: site.number_of_posts -%}
 <article class="post-item">
@@ -12,3 +12,4 @@ home: true
   </h4>
 </article>
 {%- endfor -%}
+{% endif %}
