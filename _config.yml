@@ -30,6 +30,10 @@ fb_appid:
 collections:
   posts:
     output: true
+  projects:
+    output: true
+    
+
 
 # Markdown settings
 markdown: kramdown
@@ -59,6 +63,9 @@ jekyll_compose:
 # Homepage limit posts
 number_of_posts: 5
 
+BASE_DIR: "/assets/img"
+POSTS_DIR: "/assets/img/posts"
+
 # Build settings
 # theme: klise
 sass:
@@ -86,4 +93,3 @@ exclude:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-postfiles

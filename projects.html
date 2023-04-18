@@ -1,0 +1,15 @@
+---
+title: Projects
+permalink: /projects/
+layout: page
+excerpt: "Projects"
+---
+{%- for project in site.projects -%}
+
+    <h3 class="post-item-title">
+      <a href="{{ project.link }}">{{ project.title | escape }}</a>
+    </h3>
+    <img src="{{ site.BASE_DIR }}{{ project.id }}.png" alt="drawing" width="200"/>
+    <p class="post-item-description">{{ project.content }}</p>
+
+{%- endfor -%}

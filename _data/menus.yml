@@ -2,6 +2,10 @@
   url: /
   external: false
 
+- title: Projects
+  url: /projects/
+  external: false
+  
 - title: Posts
   url: /archive/
   external: false
