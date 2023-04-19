@@ -5,7 +5,7 @@ layout: page
 excerpt: All posts
 comments: false
 ---
-
+{% if site.posts!=empty %}
 <div class="search-article">
   <label for="search-input" aria-hidden="true">
     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(128,128,128,0.8)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
@@ -27,3 +27,6 @@ comments: false
     </h3> 
   </article>
 {%- endfor -%}
+{% else %}
+  <p style="text-align: center;">There are no posts yet 😕</p>
+{% endif %}

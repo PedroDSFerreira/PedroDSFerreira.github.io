@@ -4,6 +4,7 @@ permalink: /projects/
 layout: page
 excerpt: "Projects"
 ---
+{% if site.projects!=empty %}
 {%- for project in site.projects -%}
 
     <h3 class="post-item-title">
@@ -13,3 +14,6 @@ excerpt: "Projects"
     <p class="post-item-description">{{ project.content }}</p>
 
 {%- endfor -%}
+{% else %}
+<p style="text-align: center;">There are no projects yet 😕</p>
+{% endif %}
