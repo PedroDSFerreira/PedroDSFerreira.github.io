@@ -1,11 +1,11 @@
 .item-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 2fr));
 }
 
 .item {
-    margin: .5rem;
-    aspect-ratio: 1/1;
+    margin: 1rem;
+    aspect-ratio: 1;
     overflow: hidden;
     border-radius: .8rem;
 }
