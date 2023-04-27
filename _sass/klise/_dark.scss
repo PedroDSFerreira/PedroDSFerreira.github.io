@@ -244,4 +244,8 @@ body[data-theme="dark"] {
       }
     }
   }
+
+  .item__content {
+    background: $dark-light;
+  }
 }

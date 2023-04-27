@@ -5,15 +5,25 @@ layout: page
 excerpt: "Projects"
 ---
 {% if site.projects!=empty %}
+
+
+<div class="item-grid">
 {%- for project in site.projects -%}
-
-    <h3 class="post-item-title">
-      <a href="{{ project.link }}">{{ project.title | escape }}</a>
-    </h3>
-    <img src="{{ site.BASE_DIR }}{{ project.id }}.png" alt="drawing" width="200"/>
-    <p class="post-item-description">{{ project.content }}</p>
-
+    <div class="item stacked">
+      <img class="item__img" src="{{ site.BASE_DIR }}{{ project.id }}.png" alt="drawing"/>
+      <div class="item__content">
+        <h2 class="post-item-title">
+          <a href="{{ project.link }}">{{ project.title | escape }}</a>
+        </h2>
+        <p class="post-item-description">{{ project.content }}</p>
+  
+      </div>
+    </div>
 {%- endfor -%}
+</div>
+
+
+
 {% else %}
 <p style="text-align: center;">There are no projects yet 😕</p>
 {% endif %}
