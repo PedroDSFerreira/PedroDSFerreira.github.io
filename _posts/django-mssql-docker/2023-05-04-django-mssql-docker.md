@@ -145,7 +145,7 @@ Make sure to update the HOST, NAME, USER, PASSWORD, and OPTIONS settings based o
 Now that we have everything set up, we can run the following command to start the containers:
 
 ```bash
-docker-compose up
+docker compose up
 ```
 
 
