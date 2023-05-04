@@ -141,7 +141,7 @@ DATABASE_CONNECTION_POOLING = False
 
 Make sure to update the HOST, NAME, USER, PASSWORD, and OPTIONS settings based on your configuration.
 
-### Step 6: Run docker dompose
+### Step 6: Run Docker Compose
 Now that we have everything set up, we can run the following command to start the containers:
 
 ```bash
