@@ -38,7 +38,7 @@ pyodbc==4.0.39
 ### Step 3: Create a Dockerfile
 Create a new file `Dockerfile` in your project directory with the following contents:
 
-```
+```Dockerfile
 # syntax=docker/dockerfile:1
 FROM python:3
 

@@ -35,11 +35,11 @@ collections:
     
 
 
-# Markdown settings
-markdown: kramdown
-highlighter: rouge
-kramdown:
-  syntax_highlighter: rouge
+# # Markdown settings
+# markdown: kramdown
+# highlighter: rouge
+# kramdown:
+#   syntax_highlighter: rouge
 
 # Default front matter
 defaults:
