@@ -5,8 +5,14 @@ layout: page
 excerpt: "About me"
 comments: false
 ---
+{% assign dateStart = "2001-09-26" | date: '%s' %}
+{% assign nowTimestamp = 'now' | date: '%s' %}
 
-My name is Pedro Ferreira and I'm 21 years old. For two years I attended with approval the Computational Engineering course of University of Aveiro, having changed in 2021 to the BSc in Computer and Informatics Engineering.
+{% assign diffSeconds = nowTimestamp | minus: dateStart %}
+{% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 | divided_by: 365 %}
+{% assign age = diffDays | round: 0 %}
+
+My name is Pedro Ferreira and I'm {{ age }} years old. For two years I attended with approval the Computational Engineering course of University of Aveiro, having changed in 2021 to the BSc in Computer and Informatics Engineering.
 
 During this time, I learnt about algorithms and data structures, how to program in Python, Matlab and Java, analyze and manipulate data to model physical systems, use Git repositories for collaborative work and create and manage Docker containers.
 
