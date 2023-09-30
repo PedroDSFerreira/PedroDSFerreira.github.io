@@ -7,7 +7,7 @@
   external: false
   
 - title: Posts
-  url: /archive/
+  url: /posts/
   external: false
 
 - title: About me
