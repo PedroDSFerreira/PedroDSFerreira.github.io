@@ -31,6 +31,7 @@ fb_appid:
 collections:
   posts:
     output: true
+    order_by: date
   projects:
     output: true
     
