@@ -31,11 +31,10 @@ fb_appid:
 collections:
   posts:
     output: true
-    order_by: date
+    sort_by: date
   projects:
     output: true
-    
-
+    sort_by: priority
 
 # # Markdown settings
 # markdown: kramdown
