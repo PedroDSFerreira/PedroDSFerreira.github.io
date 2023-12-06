@@ -1,6 +1,7 @@
 ---
 title: UniTask
-priority: 1
+priority: 10
 link: https://github.com/PedroDSFerreira/uni-bd/tree/main/Project
 ---
+
 University task management platform
