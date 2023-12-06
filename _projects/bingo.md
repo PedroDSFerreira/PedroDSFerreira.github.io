@@ -1,6 +1,6 @@
 ---
 title: Bingo
-priority: 50
+priority: 60
 link: https://github.com/PedroDSFerreira/uni-sio/tree/main/project-2
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Dotfiles
-priority: 30
+priority: 70
 link: https://github.com/PedroDSFerreira/dotfiles
 ---
 

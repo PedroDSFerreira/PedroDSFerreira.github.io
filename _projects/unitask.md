@@ -1,6 +1,6 @@
 ---
 title: UniTask
-priority: 10
+priority: 40
 link: https://github.com/PedroDSFerreira/uni-bd/tree/main/Project
 ---
 

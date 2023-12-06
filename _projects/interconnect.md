@@ -1,6 +1,6 @@
 ---
 title: InterConnect
-priority: 22
+priority: 10
 link: https://gitlab.com/PedroDSFerreira/si-23-dev-challenge/-/tree/main/project
 ---
 
