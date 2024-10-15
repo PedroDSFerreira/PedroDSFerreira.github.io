@@ -12,13 +12,13 @@ mode: dark # default theme "dark" | "light"
 author:
   name: Pedro Ferreira # author name
   bio: >- # tell to the world
-    Computer and Informatics Engineering Student at University of Aveiro
+    MSc in Computer and Telematics Engineering @ University of Aveiro
   username: Pedro # general username
   github: PedroDSFerreira # github username
   gitlab: PedroDSFerreira # gitlab username
   linkedin: pedrodsferreira # linkedin username
   email: pedrodsf21@gmail.com # email adress
-  avatar: /assets/img/avatar.jpg # change with your own avatar
+  avatar: /assets/img/avatar.jpg
 
 # URL settings
 url: "https://pedrodsf.github.io/" #
