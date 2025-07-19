@@ -1,7 +1,7 @@
 ---
 title:  "Django + MSSQL with Docker"
 date:   2023-05-04
-# cover: "/posts/django-mssql-docker/cover.png"
+cover: "/posts/django-mssql-docker/cover.png"
 tags: [django, mssql, docker, docker-compose]
 ---
 In this post, I will explain how to set up Django with MSSQL using Docker Compose.
