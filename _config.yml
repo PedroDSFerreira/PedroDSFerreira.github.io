@@ -11,8 +11,9 @@ mode: dark # default theme "dark" | "light"
 # Profile settings
 author:
   name: Pedro Ferreira # author name
-  bio: >- # tell to the world
-    MSc in Computer and Telematics Engineering @ University of Aveiro
+  bio: |
+    Software Engineer @ Nokia
+    MSc @ UA
   username: Pedro # general username
   github: PedroDSFerreira # github username
   gitlab: PedroDSFerreira # gitlab username
@@ -64,8 +65,7 @@ jekyll_compose:
 # Homepage limit posts
 number_of_posts: 5
 
-BASE_DIR: "/assets/img"
-POSTS_DIR: "/assets/img/posts"
+IMAGES_DIR: "/assets/img"
 
 # Build settings
 # theme: klise
