@@ -1,6 +1,7 @@
 ---
 title: Timewise
 priority: 18
+thumbnail: "/projects/timewise.png"
 link: https://github.com/PedroDSFerreira/timewise
 ---
 
