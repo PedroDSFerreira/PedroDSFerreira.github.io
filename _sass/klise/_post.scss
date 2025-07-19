@@ -6,10 +6,42 @@
   }
 }
 
+@include media-query($on-tablet) {
+  #post-header {
+    margin-top: 0 !important;
+  }
+}
 // Post title
 .header {
-  margin-top: 7.8em;
+  margin-top: 2em;
   margin-bottom: 3em;
+
+  .post-cover {
+    display: block;
+    width: 120%;
+    max-width: 1100px;
+    aspect-ratio: 16/9;
+    margin: 0 -5% 2em -5%;
+    padding: 0;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+    object-fit: cover;
+    background: $light;
+    object-position: center;
+    overflow: hidden;
+    transition: max-width 0.3s, aspect-ratio 0.3s, border-radius 0.3s;
+  }
+  @include media-query($on-tablet) {
+    .post-cover {
+      width: 100vw;
+      max-width: 100vw;
+      margin-top: 0;
+      margin-left: 50%;
+      transform: translateX(-50%);
+      border-radius: 0;
+      transition: none;
+    }
+  }
 
   .tags {
     margin-left: 3px;

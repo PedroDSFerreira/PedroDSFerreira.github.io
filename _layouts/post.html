@@ -33,7 +33,12 @@ layout: compress
     <main class="page-content" aria-label="Content">
       <article itemscope itemtype="https://schema.org/BlogPosting">
 
-        <header class="header">
+        <header id="post-header" class="header">
+          
+          {% if page.cover %}
+          <img class="post-cover" src="{{ site.IMAGES_DIR }}{{ page.cover }}" alt="Cover image for {{ page.title | escape }}">
+          {% endif %}
+          
           {% if page.tags and page.tags != empty %}
           <div class="tags">
             {% assign tags = page.tags %}
@@ -45,7 +50,9 @@ layout: compress
             </span>
           </div>
           {% endif %}
+
           <h1 class="header-title" itemprop="headline">{{ page.title | escape }}</h1>
+          
           {% if page.date %}
           <div class="post-meta">
             <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -62,6 +69,7 @@ layout: compress
             <span hidden itemprop="mainEntityOfPage">{{ page.excerpt }}</span>
           </div>
           {% endif %}
+
         </header>
 
         <div class="page-content" itemprop="articleBody">
