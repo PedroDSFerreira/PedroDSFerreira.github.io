@@ -1,3 +1,8 @@
+@include media-query($on-mobile) {
+  #post-header:not(:has(.post-cover)) {
+    padding-top: 3.5em;
+  }
+}
 // Post wrapper
 .wrapper.post {
   @include media-query($on-mobile) {
