@@ -44,7 +44,7 @@ A more efficient approach is TSDProxy, an open-source service that runs next to 
   </p>
 </center>
 
-Rather than running a separate Tailscale sidecar for every service, TSDProxy acts as a central orchestrator that handles the registration and discovery process for you.
+Rather than running a separate sidecar for every service, TSDProxy acts as a central orchestrator that handles the registration and discovery process for you.
 
 ---
 
