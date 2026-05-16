@@ -5,7 +5,7 @@
 - title: Projects
   url: /projects/
   external: false
-  
+
 - title: Posts
   url: /posts/
   external: false
@@ -15,5 +15,5 @@
   external: false
 
 - title: CV
-  url: https://raw.githubusercontent.com/PedroDSFerreira/PedroDSFerreira.github.io/master/assets/cv.pdf
+  url: https://pedrodsferreira.github.io/cv/cv.pdf
   external: true
