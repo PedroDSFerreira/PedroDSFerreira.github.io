@@ -6,7 +6,7 @@ excerpt: "About me"
 comments: false
 ---
 
-Hi 👋 I'm Pedro Ferreira, a Software Engineer at Nokia, and a Master's student in Computer and Telematics Engineering at the University of Aveiro.
+Hi 👋 I'm Pedro Ferreira, a Software Engineer at Sky, and a Master's student in Computer and Telematics Engineering at the University of Aveiro.
 
 I enjoy working on everything from algorithms and data structures to software architecture and CI/CD. I like approaching problems with a practical mindset and building solutions that are efficient, reliable, and easy to maintain.
 
